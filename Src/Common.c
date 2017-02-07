@@ -22,7 +22,7 @@ uint8_t volatile HID_CLASS_OUT =FALSE,HID_CLASS_IN = FALSE;
 void CmdGenAck(unsigned char *cpBuf)
 {
 	uint32_t wLen;//guoyr
-	uint32_t i;
+	uint32_t i;//second
 	uint8_t cCrc;
 
 	// 取数据部分的长度
